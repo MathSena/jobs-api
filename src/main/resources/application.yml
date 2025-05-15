@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: jobs-api
+  datasource:
+    url: jdbc:postgresql://localhost:5434/gestao_vagas
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
