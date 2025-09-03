@@ -12,3 +12,8 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+security:
+  token:
+    secret: mySecretKey
+    expiration: 3600000 # 1 hour in milliseconds
